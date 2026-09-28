@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me
 
-**你好！我是师镭，目前是中国科学技术大学电子信息工程专业的一名本科生。**
+你好！我是师镭，目前是中国科学技术大学电子信息工程专业的一名本科生。
 
 Hello! I'm RadiumShi, an undergraduate student majoring in Electronic Information Engineering at the University of Science and Technology of China.
 
