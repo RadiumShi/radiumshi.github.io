@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "About"
+title: "About/关于"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-## About Me
+## About Me/关于我
 
 你好！我是师镭，目前是中国科学技术大学电子信息工程专业的一名本科生。
 
