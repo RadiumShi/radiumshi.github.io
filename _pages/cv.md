@@ -1,64 +1,104 @@
 ---
-layout: archive
-title: "CV"
+layout: single
+title: "CV / 简历"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
-{% include base_path %}
+# Curriculum Vitae / 个人简历
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Education / 教育经历
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+University of Science and Technology of China (USTC)
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+中国科学技术大学
+
+
+Undergraduate Student
+
+本科生
+
+
+Electronic Information Engineering
+
+电子信息工程
+
+
+
+
+---
+
+# Research Interests / 兴趣方向
+
+
+- Mathematics and Applications
+- Computer Science
+- Artificial Intelligence
+- Electronic Information Technology
+
+
+- 数学及其应用
+- 计算机科学
+- 人工智能
+- 电子信息技术
+
+
+
+---
+
+# Skills / 技能
+
+
+## Programming Languages / 编程语言
+
+
+- C
+- Python
+
+
+
+## Tools / 工具
+
+
+- Git
+- GitHub
+- VS Code
+
+
+
+---
+
+# Projects / 项目经历
+
+
+## Project Name / 项目名称
+
+
+Description:
+
+项目介绍：
+
+
+
+
+---
+
+# Courses / 课程
+
+
+- Mathematical Analysis / 数学分析
+- Linear Algebra / 线性代数
+- Programming / 程序设计
+
+
+
+---
+
+# Awards & Activities / 荣誉与活动
+
+
+Coming soon...
+
+持续更新...
