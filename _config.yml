@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "RdiumShi"
 title_separator          : "-"
@@ -28,8 +28,8 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Electronic Information Engineering Student"
   location         : "China"
-  employer         : "University of Science and Technology of China"
-  uri              : # URL
+  employer         : "USTC中国科学技术大学"
+  uri              : “https://radiumshi.github.io”
   email            : "radiumshi@gmail.com" 
 
   # Academic websites
@@ -237,7 +237,8 @@ collections:
 
 # These settings control how pages and collections are included in the site
 defaults:
-  # _posts
+
+  # Blog posts (_posts)
   - scope:
       path: ""
       type: posts
@@ -245,17 +246,24 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
-  # _pages
+      toc: true
+      toc_label: "文章目录"
+      toc_icon: "list"
+
+
+  # Pages (_pages)
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _teaching
+
+
+  # Teaching pages
   - scope:
       path: ""
       type: teaching
@@ -263,8 +271,10 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
-  # _publications
+      comments: false
+
+
+  # Publications pages
   - scope:
       path: ""
       type: publications
@@ -272,8 +282,10 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
-  # _portfolio
+      comments: false
+
+
+  # Portfolio pages
   - scope:
       path: ""
       type: portfolio
@@ -281,8 +293,10 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
-  # _talks
+      comments: false
+
+
+  # Talks pages
   - scope:
       path: ""
       type: talks
@@ -290,7 +304,7 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
+      comments: false
 
 # Sass/SCSS
 sass:
@@ -302,7 +316,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai 
 
 
 # Plugins
